@@ -1,0 +1,34 @@
+/*  These is a style snippet to be used with
+ *  http://mcdlr.com/css-inject/
+ */
+
+
+/* -- reddit - http://www.reddit.com/ - I don't use the reddit enhancement suite. I believe in websites. --------------------- */
+
+.content {
+  margin: 0;
+}
+.side {
+  display: none;
+}
+.md {
+  max-width: 64em;
+}
+.md p,
+.md h1 {
+  line-height: 1.4;
+  margin: 1em 0;
+}
+.md p:first-of-type {
+  margin-top: 5px;
+}
+.md p:last-of-type {
+  margin-bottom: 5px;
+}
+.arrow.up,
+.arrow.down {
+  display: block;
+  visibility: visible;
+}
+
+/* -- /reddit */
