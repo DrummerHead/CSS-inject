@@ -1,0 +1,36 @@
+/* These are style snippets to be used with
+ * http://mcdlr.com/css-inject/ */
+
+
+/* -- Cracked - http://www.cracked.com/ - best used for articles and not the homepage --------------------- */
+html {
+  background-color: #ddd;
+  padding: 0;
+}
+body#Articles {
+  width: 710px;
+}
+#Article {
+  padding: 15px 30px;
+}
+#follow_me,
+#persistent-share,
+#SecondaryContent,
+#Ad990,
+#TopBar,
+#Header,
+#NewArticles,
+#NavAndTools,
+#Tombstone,
+#FooterLinks,
+#NewsletterAndSearch,
+#Footer {
+  display: none;
+}
+.Module .body {
+  border: none;
+}
+#Wrapper {
+  box-shadow: none;
+}
+/* -- /Cracked */
