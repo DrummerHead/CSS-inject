@@ -30,9 +30,14 @@ p {
 sup,
 sub {
   line-height: 1;
-  vertical-align: top;
+}
+sup {
   position: relative;
+  vertical-align: top;
   top: -2px;
+}
+sub {
+  vertical-align: bottom;
 }
 
 /* -- /Wikipedia */
