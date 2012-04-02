@@ -1,0 +1,38 @@
+/*  These is a style snippet to be used with
+ *  http://mcdlr.com/css-inject/
+ */
+
+
+/* -- Wikipedia - http://www.wikipedia.org/ - Considerably improved readability  --------------------- */
+
+#mw-head-base,
+#mw-head,
+#mw-panel,
+#mw-page-base,
+#footer {
+  display: none;
+}
+#content {
+  margin: 0 auto;
+  max-width: 57em;
+  padding: 2em;
+  font-size: 1.4em;
+  background-image: none;
+}
+h1,
+h2 {
+  margin: 1.4em 0 .7em;
+}
+p {
+  line-height: 1.5;
+  margin: 1.1em 0;
+}
+sup,
+sub {
+  line-height: 1;
+  vertical-align: top;
+  position: relative;
+  top: -2px;
+}
+
+/* -- /Wikipedia */
