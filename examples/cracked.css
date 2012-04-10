@@ -1,9 +1,10 @@
-/*  These is a style snippet to be used with
- *  http://mcdlr.com/css-inject/
- */
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
 
 
-/* -- Cracked - http://www.cracked.com/ - best used for articles and not the homepage --------------------- */
+/* -  Cracked - http://www.cracked.com/            - *\
+|* -  Best used for articles and not the homepage  - *|
+\* -  v1.5                                         - */
 
 html {
   background-color: #ddd;
@@ -36,4 +37,4 @@ body#Articles {
   box-shadow: none;
 }
 
-/* -- /Cracked */
+/* -  /Cracked  - */

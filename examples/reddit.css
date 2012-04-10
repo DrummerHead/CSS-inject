@@ -1,9 +1,10 @@
-/*  These is a style snippet to be used with
- *  http://mcdlr.com/css-inject/
- */
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
 
 
-/* -- reddit - http://www.reddit.com/ - I don't use the reddit enhancement suite. I believe in websites. --------------------- */
+/* -  Reddit - http://www.reddit.com/                                   - *\
+|* -  I don't use the reddit enhancement suite. I believe in websites.  - *|
+\* -  v1.5                                                              - */
 
 .content {
   margin: 0;
@@ -31,4 +32,4 @@
   visibility: visible;
 }
 
-/* -- /reddit */
+/* -  /reddit  - */

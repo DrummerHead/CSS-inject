@@ -1,9 +1,10 @@
-/*  These is a style snippet to be used with
- *  http://mcdlr.com/css-inject/
- */
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
 
 
-/* -- Wikipedia - http://www.wikipedia.org/ - Considerably improved readability  --------------------- */
+/* -  Wikipedia - http://www.wikipedia.org/  - *\
+|* -  Considerably improved readability      - *|
+\* -  v1.7                                   - */
 
 #mw-head-base,
 #mw-head,
@@ -40,4 +41,4 @@ sub {
   vertical-align: bottom;
 }
 
-/* -- /Wikipedia */
+/* -  /Wikipedia  - */
