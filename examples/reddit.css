@@ -4,13 +4,16 @@
 
 /* -  Reddit - http://www.reddit.com/                                   - *\
 |* -  I don't use the reddit enhancement suite. I believe in websites.  - *|
-\* -  v1.5                                                              - */
+\* -  v1.6                                                              - */
 
 .content {
   margin: 0;
 }
 .side {
   display: none;
+}
+.usertext.border .usertext-body {
+  padding: 1em 1.5em;
 }
 .md {
   max-width: 64em;
@@ -25,6 +28,10 @@
 }
 .md p:last-of-type {
   margin-bottom: 5px;
+}
+.link .usertext .md {
+  padding: 1em 1.5em;
+  border-color: #99b3cc;
 }
 .arrow.up,
 .arrow.down {
