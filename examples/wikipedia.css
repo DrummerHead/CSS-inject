@@ -4,8 +4,12 @@
 
 /* -  Wikipedia - http://www.wikipedia.org/  - *\
 |* -  Considerably improved readability      - *|
-\* -  v1.7                                   - */
+\* -  v1.7.2                                 - */
 
+body {
+  background-color: #eee;
+  background-image: none;
+}
 #mw-head-base,
 #mw-head,
 #mw-panel,
@@ -15,7 +19,7 @@
 }
 #content {
   margin: 0 auto;
-  max-width: 57em;
+  max-width: 52em;
   padding: 2em;
   font-size: 1.4em;
   background-image: none;
