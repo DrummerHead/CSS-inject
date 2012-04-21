@@ -1,0 +1,57 @@
+/*                       *\
+   Styles by DrummerHead
+\*                       */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: courier, monospace;
+  color: #222;
+  background-color: #dffff2;
+}
+#container {
+  width: 800px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin: 16px 0 0 0;
+}
+textarea {
+  width: 97%;
+  height: 330px;
+  padding: 12px 0 12px 12px;
+  margin: 4px 0 0 0;
+}
+input {
+  width: 600px;
+  height: 25px;
+}
+input[type="submit"] {
+  width: 180px;
+  cursor: pointer;
+}
+small {
+  margin-top: 25px;
+  display: block;
+}
+p em {
+  font-size: 1.3em;
+  font-style: normal;
+}
+#a-holder {
+  height: 64px;
+  margin: .5em 0;
+  border: 1px solid #ddd;
+  font-size: 2em;
+  text-align: center;
+  background-color: #f0fbe1;
+}
+#a-holder a {
+  cursor: move;
+  background-color: lightBlue;
+  display: block;
+  line-height: 1;
+  padding: .5em;
+}
