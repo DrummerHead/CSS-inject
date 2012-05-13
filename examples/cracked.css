@@ -4,11 +4,12 @@
 
 /* -  Cracked - http://www.cracked.com/            - *\
 |* -  Best used for articles and not the homepage  - *|
-\* -  v1.5                                         - */
+\* -  v1.6                                         - */
 
 html {
   background-color: #ddd;
   padding: 0;
+  background-image: none;
 }
 body#Articles {
   width: 710px;
