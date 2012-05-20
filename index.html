@@ -11,13 +11,9 @@
 <link rel='stylesheet' href='../css/promiscuous.css?7'>
 <link rel='stylesheet' href='../css/theme-default.css'>
 <link rel='stylesheet' href='../css/codemirror.css'>
-<link rel='stylesheet' href='stijl.css'>
+<link rel='stylesheet' href='css/stijl.css'>
 <link rel='image_src' href='http://mcdlr.com/img/thumbs/css-inject.jpg'>
 
-<script src='jquery-1.6.2.min.js'></script>
-<script src='../js/libertine.js'></script>
-<script src='../js/codemirror-compressed.js'></script>
-<script src='../js/css.js'></script>
 
 </head>
 <body>
@@ -35,7 +31,7 @@
   <p>Here you can create a Bookmarklet that will apply whatever styles you want on any page you want, useful for client demonstration and bug debunking between peers.</p>
   <form id='magia'>
     <label for='sep'>Here goes your css:</label>
-    <textarea id='sep' spellcheck='false'></textarea>
+    <textarea id='codeInput' spellcheck='false'></textarea>
     <label for='nome'>Bookmarklet name:</label>
     <input type='text' id='nome' value='Nome' />
     <input type='submit' value='Generate Bookmarklet' />
@@ -46,34 +42,16 @@
   <p>Interested in injecting some Javascript instead? You should check <a href='/js-inject/'>JS Inject</a>!</p>
 </div>
 
-<script>
-// codeMirror activate!!
-var editor = CodeMirror.fromTextArea(document.getElementById('sep'), {
-  lineNumbers: true,
-  matchBrackets: true
-});
 
-// Make the code magic!!
-$('#magia').submit(function(){
-  var raw = $('#sep').val(),
-      noSingleQuote = raw.replace(/'/g,'&#39;'),
-      noDoubleQuote = noSingleQuote.replace(/"/g,'&#34;'),
-      noReturnNewline = noDoubleQuote.replace(/[\r\n]/g,' '),
-      noTabs = noReturnNewline.replace(/\t/g,' '),
-      noExtraSpaces = noTabs.replace(/ +/g,' '),
-      nome = $('#nome').val();
 
-  var importantCss = noExtraSpaces.replace(/;/g,' !important;');
 
-  var aHref = "javascript:(function(){ var style = document.createElement('style'); var styleContent = document.createTextNode('"+importantCss+"'); style.appendChild(styleContent ); var caput = document.getElementsByTagName('head'); caput[0].appendChild(style); })();";
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
-  var aElement = '<a href="'+aHref+'">'+nome+'</a>';
-
-  $('#a-holder').empty().append(aElement);
-
-  return false;
-});
-</script>
+<script src='../js/libertine.js'></script>
+<script src='../js/codemirror-compressed.js'></script>
+<script src='../js/css.js'></script>
+<script src='js/gedrag.js'></script>
 
 <!-- Google analytics -->
 <script>

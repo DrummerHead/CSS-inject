@@ -1,0 +1,12 @@
+body {
+  background-color: red;
+}
+h1:after {
+  content: "\263a";
+}
+#magia > label:after {
+  content: 'sabedlo';
+}
+#magia [for="nome"]:after {
+  content: "sabelín"  ;
+}
