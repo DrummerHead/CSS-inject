@@ -1,0 +1,17 @@
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
+
+
+/* -  Cómo ir - http://comoir.montevideo.gub.uy/stmWEB/  - *\
+|* -  Make the map area significantly bigger             - *|
+\* -  v1.0                                               - */
+
+body > table {
+  width: 94%;
+}
+#map {
+  width: 100%;
+  height: 640px;
+}
+
+/* -  /Cómo ir  - */
