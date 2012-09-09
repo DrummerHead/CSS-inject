@@ -4,8 +4,11 @@
 
 /* -  Reddit - http://www.reddit.com/                                   - *\
 |* -  I don't use the reddit enhancement suite. I believe in websites.  - *|
-\* -  v1.7                                                              - */
+\* -  v1.8                                                              - */
 
+body {
+  background-image: none;
+}
 .content {
   margin: 0;
 }
