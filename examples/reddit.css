@@ -4,12 +4,12 @@
 
 /* -  Reddit - http://www.reddit.com/                                   - *\
 |* -  I don't use the reddit enhancement suite. I believe in websites.  - *|
-\* -  v1.8                                                              - */
+\* -  v1.9                                                              - */
 
 body {
   background-image: none;
 }
-.content {
+body div.content {
   margin: 0;
 }
 .side {
@@ -43,6 +43,9 @@ body {
 .arrow.down {
   display: block;
   visibility: visible;
+}
+.thing {
+  margin: 2.5em 0;
 }
 
 /* -  /reddit  - */
