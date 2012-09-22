@@ -44,7 +44,7 @@ body div.content {
   display: block;
   visibility: visible;
 }
-.thing {
+#siteTable .thing {
   margin: 2.5em 0;
 }
 
