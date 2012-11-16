@@ -1,0 +1,60 @@
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
+
+
+/* -  Minecraft Wiki - http://www.minecraftwiki.net/ - *\
+|* -  Improved readability, layout simplification    - *|
+\* -  v0.9                                           - */
+
+body {
+  margin: 0;
+}
+#mw-head-base,
+#mw-head,
+#mw-panel,
+#footer,
+#netbar,
+#ft,
+#curse-panel,
+#siteNotice,
+.atflb,
+.btflb {
+  display: none;
+}
+#content {
+  margin: -120px auto 0;
+  max-width: 56em;
+  padding: 2em;
+  border: none;
+  font-size: 1.4em;
+  background-image: none;
+  background-color: #eee;
+}
+#bodyContent2 {
+  margin: 0;
+}
+h1,
+h2 {
+  margin: 1.4em 0 .7em;
+}
+#firstHeading {
+  margin-top: 0;
+}
+p {
+  line-height: 1.5;
+  margin: 1.1em 0;
+}
+sup,
+sub {
+  line-height: 1;
+}
+sup {
+  position: relative;
+  vertical-align: top;
+  top: -2px;
+}
+sub {
+  vertical-align: bottom;
+}
+
+/* -  /Minecraft Wiki  - */
