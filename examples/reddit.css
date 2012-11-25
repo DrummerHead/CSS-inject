@@ -4,17 +4,18 @@
 
 /* -  Reddit - http://www.reddit.com/                                   - *\
 |* -  I don't use the reddit enhancement suite. I believe in websites.  - *|
-\* -  v1.9                                                              - */
+\* -  v2.0                                                              - */
 
 body {
   background-image: none;
 }
 body div.content {
-  margin: 0;
+  margin: 0.5em;
 }
 .side {
   display: none;
 }
+
 .usertext.border .usertext-body {
   padding: 1em 1.5em;
 }
@@ -43,6 +44,9 @@ body div.content {
 .arrow.down {
   display: block;
   visibility: visible;
+}
+#siteTable .entry {
+  clear: both;
 }
 #siteTable .thing {
   margin: 2.5em 0;
