@@ -51,5 +51,8 @@ body div.content {
 #siteTable .thing {
   margin: 2.5em 0;
 }
+#siteTable .md {
+	margin: 0.5em auto;
+}
 
 /* -  /reddit  - */
