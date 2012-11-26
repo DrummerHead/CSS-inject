@@ -42,7 +42,9 @@
 }
 .main-image h2,
 .album-title,
-.main-image .album-image .description {
+.main-image .album-image .description,
+#image-container .description,
+#image-container h2 {
   text-align: center;
 }
 
