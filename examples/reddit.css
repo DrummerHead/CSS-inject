@@ -11,7 +11,7 @@ body {
   background-color: #fff;
 }
 body div.content {
-  margin: 0;
+  margin: 0.5em;
 }
 a:hover {
   text-decoration: underline;
@@ -51,8 +51,14 @@ a:hover {
   display: block;
   visibility: visible;
 }
+#siteTable .entry {
+  clear: both;
+}
 #siteTable .thing {
   margin: 2.5em 0;
+}
+#siteTable .md {
+  margin: 0.5em auto;
 }
 
 /* -  /reddit  - */

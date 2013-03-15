@@ -1,0 +1,51 @@
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
+
+
+/* -  Imgur - http://imgur.com/                - *\
+|* -  Layout improvements for bigger displays  - *|
+\* -  v1.0                                     - */
+
+#content,
+.panel {
+  width: auto;
+}
+.panel {
+  padding: 1em;
+  background-color: #181817;
+}
+.right,
+.imagelist-panels,
+#upload-global-flash-container {
+  display: none;
+}
+.left {
+  float: none;
+}
+.blog .image {
+  margin-bottom: 2em;
+}
+.blog .image .wrapper {
+  padding: 2em 0;
+}
+.blog #image-container img,
+.main-image .image img {
+  max-width: 100%;
+}
+.post,
+.post a img {
+  width: 160px;
+  height: 160px;
+}
+.post {
+  margin: 1em;
+}
+.main-image h2,
+.album-title,
+.main-image .album-image .description,
+#image-container .description,
+#image-container h2 {
+  text-align: center;
+}
+
+/* -  /Imgur  - */
