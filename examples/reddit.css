@@ -2,21 +2,28 @@
       http://mcdlr.com/css-inject/              - */
 
 
-/* -  Reddit - http://www.reddit.com/                                   - *\
-|* -  I don't use the reddit enhancement suite. I believe in websites.  - *|
-\* -  v1.9                                                              - */
+/* -  Reddit - http://www.reddit.com/       - *\
+|* -  Improving the layout and whitespace   - *|
+\* -  v2.1                                  - */
 
 body {
   background-image: none;
+  background-color: #fff;
 }
 body div.content {
   margin: 0;
+}
+a:hover {
+  text-decoration: underline;
 }
 .side {
   display: none;
 }
 .usertext.border .usertext-body {
   padding: 1em 1.5em;
+}
+.entry {
+  background-color: rgba(255, 255, 255, .75);
 }
 .comment {
   margin: 1em;
