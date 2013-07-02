@@ -4,7 +4,7 @@
 
 /* -  Reddit - http://www.reddit.com/       - *\
 |* -  Improving the layout and whitespace   - *|
-\* -  v2.1                                  - */
+\* -  v2.2                                  - */
 
 body {
   background-image: none;
@@ -26,6 +26,9 @@ a:hover {
   background-color: rgba(255, 255, 255, .75);
 }
 .comment {
+  position: static;
+  top: auto;
+  left: auto;
   margin: 1em;
 }
 .md {
