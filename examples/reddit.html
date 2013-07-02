@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <title>reddit bookmarklet</title>
+  <meta name='author' content='DrummerHead'>
+  <link rel='stylesheet' href='../../css/promiscuous.css'>
+  <link rel='stylesheet' href='examples.css'>
+</head>
+<body>
+
+<header id='quoin'>
+  <div id='brand'>
+    <a href='/' title='Go to mcdlr homepage'>Go to mcdlr homepage</a>
+  </div>
+  <div id='octo-peek'>
+    <a href='https://github.com/DrummerHead/CSS-inject/blob/master/examples/reddit.css' rel='external'><span>Fork me on Github!</span></a>
+  </div>
+</header>
+
+<small>Drag the below link to your bookmarks</small>
+<a href="javascript:(function(){ var style = document.createElement(%27style%27), styleContent = document.createTextNode(%27body { background-image: none !important; background-color: #fff !important; } body div.content { margin: 0.5em !important; } a:hover { text-decoration: underline !important; } .side { display: none !important; } .usertext.border .usertext-body { padding: 1em 1.5em !important; } .entry { background-color: rgba(255, 255, 255, .75) !important; } .comment { position: static !important; top: auto !important; left: auto !important; margin: 1em !important; } .md { max-width: 64em !important; } .md p, .md h1 { line-height: 1.4 !important; margin: 1em 0 !important; } .md p:first-of-type { margin-top: 5px !important; } .md p:last-of-type { margin-bottom: 5px !important; } .link .usertext .md { padding: 1em 1.5em !important; border-color: #99b3cc !important; } .arrow.up, .arrow.down { display: block !important; visibility: visible !important; } #siteTable .entry { clear: both !important; } #siteTable .thing { margin: 2.5em 0 !important; } #siteTable .md { margin: 0.5em auto !important; }%27); style.appendChild(styleContent ); var caput = document.getElementsByTagName(%27head%27); caput[0].appendChild(style); })();">reddit</a>
+
+</body>
+</html>
