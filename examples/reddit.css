@@ -4,17 +4,23 @@
 
 /* -  Reddit - http://www.reddit.com/       - *\
 |* -  Improving the layout and whitespace   - *|
-\* -  v2.3                                  - */
+\* -  v2.4                                  - */
 
 body {
   background-image: none;
   background-color: #fff;
 }
-body div.content {
-  margin: 0.5em;
+a:visited {
+  color: purple;
 }
 a:hover {
   text-decoration: underline;
+}
+body div.content {
+  margin: 0.5em;
+}
+.commentarea {
+  margin: 0;
 }
 .side {
   display: none;
@@ -36,6 +42,7 @@ a:hover {
   top: auto;
   left: auto;
   margin: 1em;
+  background-color: transparent;
 }
 .md {
   max-width: 64em;
@@ -56,7 +63,9 @@ a:hover {
   border-color: #99b3cc;
 }
 .arrow.up,
-.arrow.down {
+.arrow.down,
+body:not(.subscriber) .arrow.up {
+body:not(.subscriber) .arrow.down {
   display: block;
   visibility: visible;
 }
