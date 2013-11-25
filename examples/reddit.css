@@ -64,7 +64,7 @@ body div.content {
 }
 .arrow.up,
 .arrow.down,
-body:not(.subscriber) .arrow.up {
+body:not(.subscriber) .arrow.up,
 body:not(.subscriber) .arrow.down {
   display: block;
   visibility: visible;
