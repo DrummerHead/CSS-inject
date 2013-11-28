@@ -4,7 +4,7 @@
 
 /* -  Reddit - http://www.reddit.com/       - *\
 |* -  Improving the layout and whitespace   - *|
-\* -  v2.4                                  - */
+\* -  v2.5                                  - */
 
 body {
   background-image: none;
@@ -41,7 +41,7 @@ body div.content {
   position: static;
   top: auto;
   left: auto;
-  margin: 1em;
+  margin: 1.75em 1em;
   background-color: transparent;
 }
 .md {
@@ -58,9 +58,16 @@ body div.content {
 .md p:last-of-type {
   margin-bottom: 5px;
 }
+.linklisting .link {
+  margin: 3em 1.5em;
+}
 .link .usertext .md {
   padding: 1em 1.5em;
+  margin: 0.5em auto;
   border-color: #99b3cc;
+}
+.link .entry {
+  clear: both;
 }
 .arrow.up,
 .arrow.down,
@@ -68,15 +75,6 @@ body:not(.subscriber) .arrow.up,
 body:not(.subscriber) .arrow.down {
   display: block;
   visibility: visible;
-}
-#siteTable .entry {
-  clear: both;
-}
-#siteTable .thing {
-  margin: 2.5em 0;
-}
-#siteTable .md {
-  margin: 0.5em auto;
 }
 
 /* -  /reddit  - */
