@@ -2,9 +2,11 @@
       http://mcdlr.com/css-inject/              - */
 
 
-/* -  Cómo ir - http://comoir.montevideo.gub.uy/stmWEB/  - *\
-|* -  Make the map area significantly bigger             - *|
-\* -  v1.0                                               - */
+/* -  Cómo ir - http://comoir.montevideo.gub.uy/stmWEB/                       - *\
+|* -  Make the map area significantly bigger                                  - *|
+|* -  NOTE: Improved version at                                               - *|
+|* -  https://github.com/DrummerHead/JS-Inject/blob/master/examples/comoir.js - *|
+\* -  v1.0                                                                    - */
 
 body > table {
   width: 94%;
