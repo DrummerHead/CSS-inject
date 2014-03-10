@@ -16,6 +16,12 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+#header-img {
+  width: auto;
+  max-width: 20em;
+  height: auto;
+  max-height: 7em;
+}
 body div.content {
   margin: 0.5em;
 }
