@@ -36,6 +36,14 @@ body div.content {
   border: .5em solid #ffc;
   background-color: transparent;
 }
+.new-comment .usertext-body {
+  padding: 0 .8em .1em .5em;
+  margin: 0;
+  border-style: none none none solid;
+  border-width: .4em;
+  border-color: #ace6e8;
+  background-color: #edfdfd;
+}
 .midcol {
   position: static;
 }
