@@ -90,5 +90,20 @@ body:not(.subscriber) .arrow.down {
   display: block;
   visibility: visible;
 }
+.unvoted .score.unvoted,
+.likes .score.likes,
+.dislikes .score.dislikes {
+  display: inline;
+}
+.unvoted .score.likes,
+.unvoted .score.dislikes,
+.likes .score.unvoted,
+.likes .score.dislikes,
+.dislikes .score.unvoted,
+.dislikes .score.likes {
+  display: none;
+}
+
+
 
 /* -  /reddit  - */
