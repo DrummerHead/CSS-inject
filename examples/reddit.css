@@ -9,6 +9,7 @@
 body {
   background-image: none;
   background-color: #fff;
+  min-width: auto;
 }
 a:visited {
   color: purple;
@@ -25,11 +26,17 @@ a:hover {
 body div.content {
   margin: 0.5em;
 }
+.sitetable {
+  margin: 0;
+}
 .commentarea {
   margin: 0;
 }
 .side {
   display: none;
+}
+.commentarea .nestedlisting {
+  width: auto;
 }
 .usertext.border .usertext-body {
   padding: 1em 1.5em;
@@ -101,6 +108,10 @@ body:not(.subscriber) .arrow.down {
 .likes .score.dislikes,
 .dislikes .score.unvoted,
 .dislikes .score.likes {
+  display: none;
+}
+
+[id^="ad"] {
   display: none;
 }
 
