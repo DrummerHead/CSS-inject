@@ -1,0 +1,20 @@
+/* -  These is a style snippet to be used with
+      http://mcdlr.com/css-inject/              - */
+
+
+/* -  Medium                      *\
+|* -  For any Medium blogpost   - *|
+\* -  v1.0                      - */
+
+.metabar,
+.js-stickyFooter,
+.js-postShareWidget {
+  display: none;
+}
+
+.section-inner {
+  max-width: 56em;
+}
+
+
+/* -  /Medium  - */
